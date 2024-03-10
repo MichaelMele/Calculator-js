@@ -69,7 +69,7 @@
 
     // #3
     else if(char == "/"){
-        operator = "/";
+        
         equation += output.value + "@";
         
        
@@ -82,6 +82,7 @@
             output.value = solution;
             equation = solution + "@";
        }
+       operator = "/";
        count++;
        operation_clicked = true;
        decimalCount = 0;
@@ -90,7 +91,7 @@
 
     // #4
     else if(char == "*"){
-        operator = "*";
+        
         equation += output.value + "@";
         
        
@@ -103,6 +104,7 @@
             output.value = solution;
             equation = solution + "@";
        }
+       operator = "*";
        count++;
        operation_clicked = true;
        decimalCount = 0;
